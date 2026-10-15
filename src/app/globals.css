@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--portfolio-background);
+  --color-surface: var(--portfolio-surface);
+  --color-elevated: var(--portfolio-elevated);
+  --color-foreground: var(--portfolio-foreground);
+  --color-muted: var(--portfolio-muted);
+  --color-accent: var(--portfolio-accent);
+  --color-accent-contrast: var(--portfolio-accent-contrast);
+  --color-border: var(--portfolio-border);
+  --font-sans: "DM Sans", sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--portfolio-background);
+  color: var(--portfolio-foreground);
+}
+
+::selection {
+  background: var(--portfolio-accent);
+  color: var(--portfolio-accent-contrast);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.display-type {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+.section-rule {
+  border-top: 1px solid var(--portfolio-border);
+}
+
+.portrait-card {
+  transform: perspective(900px) rotateX(var(--rotate-x, 0deg)) rotateY(var(--rotate-y, 0deg));
+  transition: transform 180ms ease-out;
+  transform-style: preserve-3d;
+}
+
+.portrait-card img {
+  transform: translateZ(18px);
+}
+
+.reveal {
+  animation: reveal 700ms both;
+}
+
+.reveal-delay-1 {
+  animation-delay: 100ms;
+}
+
+.reveal-delay-2 {
+  animation-delay: 200ms;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .portrait-card {
+    transform: none !important;
+  }
+}

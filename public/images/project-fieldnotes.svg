@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" fill="none">
+  <rect width="1440" height="720" fill="#d8e6d0"/>
+  <rect x="92" y="68" width="1256" height="584" rx="12" fill="#f7f7f1"/>
+  <rect x="92" y="68" width="230" height="584" rx="12" fill="#21372c"/>
+  <circle cx="132" cy="113" r="14" fill="#c4ed88"/>
+  <path d="M161 108h86M161 119h60" stroke="#f1f1e9" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+  <rect x="120" y="166" width="155" height="34" rx="7" fill="#c4ed88"/>
+  <rect x="132" y="179" width="70" height="7" rx="3.5" fill="#263b2c"/>
+  <path d="M132 236h105M132 273h81M132 310h97M132 347h67" stroke="#d4ddd2" stroke-width="8" stroke-linecap="round"/>
+  <text x="378" y="144" fill="#314234" font-family="Georgia,serif" font-size="44">Good morning, Alex.</text>
+  <text x="378" y="182" fill="#758174" font-family="Arial,sans-serif" font-size="17">A little space for the ideas worth keeping.</text>
+  <rect x="378" y="226" width="420" height="350" rx="8" fill="#e8eee5"/>
+  <rect x="420" y="267" width="336" height="178" rx="4" fill="#b9d38a"/>
+  <circle cx="588" cy="356" r="57" fill="#f0d8a9"/>
+  <path d="M420 410c74-91 143-42 195-101 58 56 87 59 141 39v97H420v-35Z" fill="#6b8767"/>
+  <text x="421" y="487" fill="#364638" font-family="Arial,sans-serif" font-size="20">Small rituals, big ideas</text>
+  <path d="M421 518h260M421 536h210" stroke="#aab7a5" stroke-width="8" stroke-linecap="round"/>
+  <rect x="828" y="226" width="468" height="350" rx="8" fill="#f0ede4"/>
+  <text x="871" y="272" fill="#38473a" font-family="Arial,sans-serif" font-size="19">Your week, at a glance</text>
+  <rect x="870" y="300" width="384" height="70" rx="6" fill="#fff"/>
+  <circle cx="901" cy="335" r="10" fill="#c4ed88"/>
+  <path d="M928 329h174M928 344h110" stroke="#879383" stroke-width="7" stroke-linecap="round"/>
+  <rect x="870" y="389" width="384" height="70" rx="6" fill="#fff"/>
+  <circle cx="901" cy="424" r="10" fill="#edb899"/>
+  <path d="M928 418h174M928 433h145" stroke="#879383" stroke-width="7" stroke-linecap="round"/>
+  <rect x="870" y="478" width="384" height="54" rx="6" fill="#dce9d0"/>
+  <path d="M899 505h210" stroke="#637861" stroke-width="8" stroke-linecap="round"/>
+</svg>
